@@ -1,0 +1,7 @@
+{
+  "name": "SafarSetu",
+  "description": "Smart multimodal Indian travel platform with verified destination dossiers across all 28 states and 8 union territories, 5 & 7-day itinerary engine, homestays, and storyteller drivers.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+coverage/
+
+# Environment and sensitive keys
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+credentials*.json
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & storage
+*.db
+*.sqlite
+*.sqlite3
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Scratch & Temporary data
+scratch/
+backend/scratch/
+canva_page.html
+scratch_*.py
+generate_*.py
